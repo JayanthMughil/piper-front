@@ -1,0 +1,10 @@
+{
+  "appInit.css": "assets/css/appInit.css",
+  "appInit.js": "assets/js/appInit.js",
+  "appInit.css.map": "assets/css/appInit.css.map",
+  "appInit.js.map": "assets/js/appInit.js.map",
+  "root.js": "assets/js/main_default.js",
+  "root.js.map": "assets/js/main_default.js.map",
+  "vendors~appInit.js": "assets/js/vendors~appInit.js",
+  "vendors~appInit.js.map": "assets/js/vendors~appInit.js.map"
+}
