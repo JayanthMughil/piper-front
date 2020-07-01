@@ -1,5 +1,69 @@
-.navbar.navbar-light.navbar-expand-md {
-    border-bottom: 1px solid #e7e7e7;
+
+.topBar {
+  align-items: center;
+  border-bottom: #e7e7e7 1px solid;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 1.25rem;
+  flex: 0 0 5rem;
+  background-color: #075278;
 }
-  
-  
+
+.appNameWrapper {
+  padding-left: 1.25rem;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.appName {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  padding-left: 0.75rem;
+  color: #fff;
+}
+
+.appLogo {
+  align-items: center;
+  display: inline-flex;
+  background-image: url("../images/delivery.svg");
+  height: 3rem;
+  width: 3rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.actionWrapper {
+  padding-right: 1.25rem;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  background-color: #fff;
+  border-radius: 3px;
+  border: none;
+  color: #000;
+  display: inline-flex;
+  margin-right: 1.25rem;
+  font-weight: 600;
+  box-shadow: 0px 1px 8px #000;
+}
+
+button {
+  font-family: sans-serif;
+}
+
+.menuNavigation {
+  align-items: center;
+  border-bottom: #e7e7e7 1px solid;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 1.25rem;
+  flex: 0 0 2rem;
+  background-color: #043148;
+}
+
+

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {TopBar} from "./userAuthorization/view/topBar"
+import {AddressPage} from "./addressPage/view/addressHome";
 import ReactDOM from 'react-dom';
 
 import "../../css/index.css";
@@ -12,7 +14,7 @@ class Init extends Component {
         'Content-Type': 'application/json'
       }
     }).then((resp) => {
-      console.log(resp);
+      console.log("success");
     }).catch((err) => {
       console.log(err);
     })
@@ -20,11 +22,15 @@ class Init extends Component {
 
   render () {
     return (
-        <div>
-          <nav className="navbar navbar-light navbar-expand-md">
-            <div className="container-fluid">Pied Piper</div>
-          </nav>
+      <div className="wrapper">
+        <TopBar />
+        <div className="menuNavigation"></div>
+        <div className="blkWrapper">
+          <div className="cBlk">
+            <AddressPage />
+          </div>
         </div>
+      </div>
     );
   }
 
